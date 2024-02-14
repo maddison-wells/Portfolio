@@ -18,7 +18,7 @@
   text-align: center;
   font-size: 60px;
   margin: 30px;
-  font-weight: 200;
+  font-weight: 400;
 }
 .about__subsection {
   display: flex;
@@ -30,7 +30,7 @@
   text-align: center;
   font-family: "Cedarville Cursive", cursive;
   color: #85baa1;
-  font-size: 40px;
+  font-size: 50px;
 }
 .about__subsection--penimg {
   width: 50px;
@@ -189,6 +189,7 @@
 .fa-solid {
   font-size: 40px;
   color: #166ca9;
+  margin-right: 10px;
 }
 
 .skills {
