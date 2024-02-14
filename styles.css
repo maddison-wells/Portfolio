@@ -29,7 +29,7 @@
 .about__subsection--title {
   text-align: center;
   font-family: "Cedarville Cursive", cursive;
-  color: #94c5cc;
+  color: #191c56;
   font-size: 40px;
 }
 .about__subsection--penimg {
@@ -47,7 +47,7 @@
 }
 .about__blurb {
   padding-bottom: 40px;
-  border-bottom: 2px solid #94c5cc;
+  border-bottom: 2px solid #191c56;
 }
 
 .contact {
@@ -55,10 +55,10 @@
   font-weight: 200;
   margin: 45px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #94c5cc;
+  border-bottom: 2px solid #191c56;
 }
 .contact__title h1 {
-  color: #94c5cc;
+  color: #191c56;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -92,10 +92,10 @@
   font-weight: 200;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #94c5cc;
+  border-bottom: 2px solid #191c56;
 }
 .projects__title h1 {
-  color: #94c5cc;
+  color: #191c56;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -105,11 +105,10 @@
   justify-content: space-between;
 }
 .projects__card--items {
-  border: 2px solid #94c5cc;
+  border: 2px solid #191c56;
   border-radius: 20px;
   box-shadow: 5px 5px 20px #698c92;
-  max-width: 250px;
-  height: 310px;
+  width: 350px;
   padding: 20px;
   text-align: center;
   overflow: hidden;
@@ -125,7 +124,7 @@
   margin-bottom: 20px;
 }
 .projects__card h1 {
-  color: #94c5cc;
+  color: #191c56;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -160,7 +159,7 @@
   justify-content: center;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #94c5cc;
+  border-bottom: 2px solid #191c56;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   gap: 20px;
@@ -180,10 +179,10 @@
   font-weight: 200;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #94c5cc;
+  border-bottom: 2px solid #191c56;
 }
 .skills__title h1 {
-  color: #94c5cc;
+  color: #191c56;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -293,7 +292,7 @@
     color: #a1cbe9;
   }
   100% {
-    color: #94c5cc;
+    color: #191c56;
   }
 }
 .animated-text {
@@ -314,3 +313,5 @@
   margin: 20px;
   text-align: end;
 }
+
+/*# sourceMappingURL=styles.css.map */
