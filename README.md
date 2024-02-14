@@ -16,4 +16,4 @@ JavaScript Functionality: Next, I added JavaScript functionality to enhance the 
 
 External Resources: I included external resources such as Font Awesome for icons and Google Fonts for typography to enhance the visual appeal of my website and improve user experience.
 
-Testing and Debugging: I tested my website across different devices and browsers to ensure compatibility and responsiveness. I debugged any issues that arose during testing to ensure a smooth user experience.
+Testing and Debugging: I tested my website across different devices and browsers to ensure compatibility and responsiveness. I debugged any issues that arose during testing to ensure a smooth user experience.g

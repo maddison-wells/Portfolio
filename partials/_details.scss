@@ -3,12 +3,12 @@
 $main-font: "Poppins", sans-serif;
 $about-font: "Cedarville Cursive", cursive;
 $main-colour: #166ca9;
-$secondary-colour: #94c5cc;
+$secondary-colour: #85baa1;
 
 .details {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: 50px;
   @include mixins.section-divide;
   font-family: $main-font;
@@ -25,4 +25,9 @@ $secondary-colour: #94c5cc;
     width: 50px;
     margin-right: 10px;
   }
+}
+
+.fa-solid {
+  font-size: 40px;
+  color: $main-colour;
 }

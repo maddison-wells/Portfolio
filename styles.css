@@ -14,7 +14,7 @@
   height: 600px;
 }
 .about__title {
-  color: #a1cbe9;
+  color: #166ca9;
   text-align: center;
   font-size: 60px;
   margin: 30px;
@@ -29,7 +29,7 @@
 .about__subsection--title {
   text-align: center;
   font-family: "Cedarville Cursive", cursive;
-  color: #191c56;
+  color: #85baa1;
   font-size: 40px;
 }
 .about__subsection--penimg {
@@ -47,7 +47,7 @@
 }
 .about__blurb {
   padding-bottom: 40px;
-  border-bottom: 2px solid #191c56;
+  border-bottom: 2px solid #85baa1;
 }
 
 .contact {
@@ -55,10 +55,10 @@
   font-weight: 200;
   margin: 45px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #191c56;
+  border-bottom: 2px solid #85baa1;
 }
 .contact__title h1 {
-  color: #191c56;
+  color: #85baa1;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -80,7 +80,7 @@
   color: black;
 }
 .contact__card i {
-  color: #a1cbe9;
+  color: #166ca9;
   font-size: 100px;
 }
 .contact__card i:hover {
@@ -92,10 +92,10 @@
   font-weight: 200;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #191c56;
+  border-bottom: 2px solid #85baa1;
 }
 .projects__title h1 {
-  color: #191c56;
+  color: #85baa1;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -104,8 +104,14 @@
   display: flex;
   justify-content: space-between;
 }
+.projects__card--img {
+  width: 250px;
+}
+.projects__card--imgfakeOS {
+  width: 220px;
+}
 .projects__card--items {
-  border: 2px solid #191c56;
+  border: 2px solid #85baa1;
   border-radius: 20px;
   box-shadow: 5px 5px 20px #698c92;
   width: 350px;
@@ -120,11 +126,11 @@
 }
 .projects__card i {
   font-size: 100px;
-  color: #a1cbe9;
+  color: #166ca9;
   margin-bottom: 20px;
 }
 .projects__card h1 {
-  color: #191c56;
+  color: #85baa1;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -139,13 +145,19 @@
 .projects--items:hover button {
   background-color: #59a8e1;
 }
+.projects a {
+  text-decoration: none;
+  color: #166ca9;
+  align-items: end;
+  font-weight: bold;
+}
 
 .expand-button {
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #a1cbe9;
+  background-color: #166ca9;
   color: #fff;
   padding: 10px 10px;
   border: none;
@@ -156,10 +168,10 @@
 .details {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #191c56;
+  border-bottom: 2px solid #85baa1;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   gap: 20px;
@@ -174,15 +186,20 @@
   margin-right: 10px;
 }
 
+.fa-solid {
+  font-size: 40px;
+  color: #166ca9;
+}
+
 .skills {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   margin: 50px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #191c56;
+  border-bottom: 2px solid #85baa1;
 }
 .skills__title h1 {
-  color: #191c56;
+  color: #85baa1;
   font-family: "Poppins", sans-serif;
   display: block;
   font-size: 35px;
@@ -200,7 +217,7 @@
   gap: 10px;
 }
 .skills__card--item i {
-  color: #a1cbe9;
+  color: #166ca9;
   font-size: 100px;
 }
 .skills__card--item i:hover {
@@ -289,10 +306,10 @@
 
 @keyframes colorChange {
   0% {
-    color: #a1cbe9;
+    color: #166ca9;
   }
   100% {
-    color: #191c56;
+    color: #85baa1;
   }
 }
 .animated-text {

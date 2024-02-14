@@ -37,17 +37,17 @@
         <div class="about__subsection">
           
           <h2 class="about__subsection--title">About me</h2>
-          <img
+          <!-- <img
             src="Portfolio/images/signature.png"
             alt="pen icon"
             class="about__subsection--penimg"
-          />
+          /> -->
         </div>
         <p class="about__blurb">
           Hello there! I'm Maddison, coming from a background in finance, the
           idea of transitioning into a field full of learning, creativity, and
           innovation was too good to pass up. As a junior full-stack developer,
-          I've thrived on challenging myself to learn new concepts and item. I
+          I've thrived on challenging myself to learn new concepts and languages. I
           love to dabble in art when time permits, and I'm never far from a good
           book. If you're seeking a driven software engineer with a dash of
           creativity, let's connect and explore the exciting possibilities
@@ -57,21 +57,18 @@
     </section>
     <section class="details">
       <div class="details__information">
-        <img src="Portfolio/images/woman.png" alt="female icon" />She/Her
+        <i class="fa-solid fa-user"></i>She/Her
       </div>
     
  
       <div class="details__information">
-        <img src="Portfolio/images/pin.png" alt="location icon" /> Dharug Country(Sydney)
+        <i class="fa-solid fa-location-dot"></i> Dharug Country(Sydney)
       </div>
       <div class="details__information">
-        <img
-          src="Portfolio/images/graduation-hat.png"
-          alt="study icon"
-        />Macquarie University
+        <i class="fa-solid fa-graduation-cap"></i>Macquarie University
       </div>
       <div class="details__information">
-        <img src="Portfolio/images/death-star.png" alt="study icon" />Star Wars
+        <i class="fa-solid fa-jedi"></i>Star Wars
         Enthusiast
       </div>
     </section>
@@ -132,35 +129,42 @@
       </div>
       <div class="projects__card">
         <div class="projects__card--items">
-          <i class="fa-solid fa-code"></i>
+          <img class="projects__card--img" src="./Portfolio/images/google-books.png" alt="">
+          <img class="projects__card--img" src="./Portfolio/images/google1.png" alt="">
+          <img class="projects__card--img" src="./Portfolio/images/google2.png" alt="">
+          <!-- <i class="fa-solid fa-code"></i> -->
           <h1>Google Books Search Engine</h1>
           <p class="projects__card--items-text hidden-text">
-            A search engine that utilises the Google Books API. The project is built using React JavaScript.
+            A ReactJS search engine powered by the Google Books API, offering a platform to explore and discover books online with detailed information fetched directly from the API.
           </p>
-           <a href="https://github.com/maddison-wells/googlebooks">View Project</a>
+           <a class="projects__card--link" href="https://github.com/maddison-wells/googlebooks">View Project</a>
           <!-- <button class="expand-button" onclick="toggleDivSize(this)"> -->
             <!-- More
           </button> -->
         </div>
         <div class="projects__card--items">
-          <i class="fa-solid fa-code"></i>
+           <img class="projects__card--imgfakeOS" src="./Portfolio/images/fakeOS.png" alt="">
+          <!-- <i class="fa-solid fa-code"></i> -->
           <h1>Fake OS</h1>
           <p class="projects__card--items-text hidden-text">
-            An imitation of an iPhone operating system. Built-in HTML and JavaScript
+            A HTML and JavaScript project mimicking the iOS operating system, providing users with a simulated iPhone interface and applications, such as Magic-8 ball, notes and stopwatch
           </p>
-          <a href="https://github.com/maddison-wells/fakeOS
+          <a class="projects__card--link" href="https://github.com/maddison-wells/fakeOS
 ">View Project</a>
           <!-- <button class="expand-button" onclick="toggleDivSize(this)">
             More
           </button> -->
         </div>
         <div class="projects__card--items">
-          <i class="fa-solid fa-code"></i>
+          <!-- <i class="fa-solid fa-code"></i> -->
+           <img class="projects__card--img" src="./Portfolio/images/lego-store.png" alt="">
+           <img class="projects__card--img" src="./Portfolio/images/lego1.png" alt="">
+           <img class="projects__card--img" src="./Portfolio/images/lego2.png" alt="">
           <h1>Lego E-Commerce Store</h1>
           <p class="projects__card--items-text">
-           E-commerce store with a functional cart. Built using React JavaScript and Firestore
+           Built with React JS, this e-commerce platform offers product browsing, searching, and cart functionality. Fetching information directly from Firestore.
           </p>
-           <a href="https://github.com/maddison-wells/legostore
+           <a class="projects__card--link" href="https://github.com/maddison-wells/legostore
 ">View Project</a>
           <!-- <button class="expand-button" onclick="toggleDivSize(this)">
             More
